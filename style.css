@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+.button{
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+    margin: 2;
+    cursor: pointer;
+    background: linear-gradient(to right rgba(0, 0, 0, 0.192),#a705a75e);
+    color: black;
+    border: none;
+    
+}
+.textview{
+    width: 210px;
+    margin: 5px;
+    font-size: 25px;
+    padding: 5px;
+    color: rgba(240, 147, 25, 0.534);
+    border-radius: 5px;
+    border: rgba(255, 0, 0, 0.507);
+}
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);
+    
+}
+p{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.background{
+    background-color: linear-gradient(to right, rgba(255, 0, 0, 0.507),rgba(0, 0, 255, 0.473));
+}
